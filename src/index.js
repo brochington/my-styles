@@ -9,6 +9,8 @@ import './css/heading.css';
 import './css/flex.css';
 import './css/margin.css';
 import './css/padding.css';
+import './css/typography.css';
+import './css/images.css';
 
 ReactDOM.render(
   <App />,

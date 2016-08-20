@@ -31,9 +31,9 @@
 }
 
 /* flex-wrap */
-.wrap { flex-wrap: wrap; }
-.nowrap { flex-wrap: nowrap; }
-.wrap-reverse { flex-wrap: wrap-reverse; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
 
 /* justify content */
 .justify-start { justify-content: flex-start; }

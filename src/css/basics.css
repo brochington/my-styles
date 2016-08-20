@@ -15,21 +15,3 @@ body {
 *, *:before, *:after {
   box-sizing:inherit;
 }
-
-span,
-p,
-div {
-    font-size: calc(1rem + 0.2vw);
-}
-
-span.larger,
-p.larger,
-div.larger {
-    font-size: calc(1.2rem + 0.2vw);
-}
-
-span.smaller,
-p.smaller,
-div.smaller {
-    font-size: calc(0.875rem + 0.2vw);
-}
