@@ -28,7 +28,7 @@
 .pb3 { padding-bottom: 2rem; }
 .pl3 { padding-left:   2rem; }
 .px3 { padding-left:   2rem; padding-right:  2rem; }
-.py3 { padding-top:    2rem; padding-bottom: var(--space-3) }
+.py3 { padding-top:    2rem; padding-bottom: 2rem; }
 
 .p4  { padding:        3rem; }
 .pt4 { padding-top:    3rem; }
