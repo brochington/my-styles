@@ -28,6 +28,7 @@ import './css/typography.css'
 import './css/images.css'
 import './css/width.css'
 import './css/height.css'
+import './css/maxWidth.css'
 
 import './css/border.css'
 

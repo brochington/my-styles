@@ -4,14 +4,14 @@ class HomePage extends React.Component {
     render() {
         return (
             <div>
-                <div className="flex justify-around flex-wrap mx2">
-                    <div>
+                <div className="flex justify-around mx2 my3">
+                    <div className="w20">
                         <img className="fit" alt="" src="http://placehold.it/350x150" />
                     </div>
-                    <div>
+                    <div className="w20">
                         <img className="fit" alt="" src="http://placehold.it/350x150" />
                     </div>
-                    <div>
+                    <div className="w20">
                         <img className="fit" alt="" src="http://placehold.it/350x150" />
                     </div>
                 </div>
