@@ -5,10 +5,10 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <div className="App flex">
-        <div className="flex-column grow-1">
+      <div className="App row so-column">
+        <div className="column">
             <h1>My CSS</h1>
-            <div className="column">
+            <div className="column so-row">
                 <Link to='/'>Home</Link>
                 <Link to="/typography">Typography</Link>
                 <Link to="/images">Images</Link>
@@ -16,7 +16,7 @@ class App extends Component {
                 <Link to="/width">Width</Link>
             </div>
         </div>
-        <div className="grow-3">
+        <div className="mu-66 so-w100">
             {this.props.children}
         </div>
       </div>
