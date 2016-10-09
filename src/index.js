@@ -15,6 +15,7 @@ import WidthPage from './pages/WidthPage'
 
 /* my css files */
 import './css/normalize.css'
+import './css/sanitize.css'
 import './css/basics.css'
 
 import './css/keyframes.css'
