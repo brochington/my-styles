@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App row so-column">
-        <div className="column">
+        <div className="column mu-w33 so-w100">
             <h1>My CSS</h1>
             <div className="column so-row">
                 <Link to='/'>Home</Link>
@@ -16,7 +16,7 @@ class App extends Component {
                 <Link to="/width">Width</Link>
             </div>
         </div>
-        <div className="mu-66 so-w100">
+        <div className="mu-w66 so-w100">
             {this.props.children}
         </div>
       </div>
