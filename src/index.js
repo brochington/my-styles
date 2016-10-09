@@ -10,6 +10,7 @@ import HomePage from './pages/HomePage'
 import TypographyPage from './pages/TypographyPage'
 import FlexboxPage from './pages/FlexboxPage'
 import ImagesPage from './pages/ImagesPage'
+import WidthPage from './pages/WidthPage'
 
 
 /* my css files */
@@ -21,6 +22,9 @@ import './css/margin.css'
 import './css/padding.css'
 import './css/typography.css'
 import './css/images.css'
+import './css/width.css'
+
+import './css/border.css'
 
 
 
@@ -31,6 +35,7 @@ ReactDOM.render(
             <Route path='/typography' component={TypographyPage} />
             <Route path='/flexbox' component={FlexboxPage} />
             <Route path='/images' component={ImagesPage} />
+            <Route path='/width' component={WidthPage} />
         </Route>
     </Router>,
   document.getElementById('root')

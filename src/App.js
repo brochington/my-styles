@@ -9,9 +9,11 @@ class App extends Component {
         <div className="flex-column grow-1">
             <h1>My CSS</h1>
             <div className="column">
+                <Link to='/'>Home</Link>
                 <Link to="/typography">Typography</Link>
                 <Link to="/images">Images</Link>
                 <Link to="/flexbox">Flexbox</Link>
+                <Link to="/width">Width</Link>
             </div>
         </div>
         <div className="grow-3">
