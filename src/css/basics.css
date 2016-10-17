@@ -1,3 +1,5 @@
+@import '../css/variables.css';
+
 html {
   box-sizing:border-box;
   width:100%;
@@ -5,11 +7,12 @@ html {
 }
 
 body {
-  color: black;
+  color: var(--color-text-primary);
   font-family: sans-serif;
   font-size:1.6em;
   font-weight:400;
   line-height:1.6;
+  background-color: var(--color-light);
 }
 
 *, *:before, *:after {

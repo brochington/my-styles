@@ -1,5 +1,7 @@
 var path = require('path');
 var autoprefixer = require('autoprefixer');
+var cssvariables = require('postcss-css-variables');
+var postcssImport = require('postcss-import');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
@@ -56,7 +58,7 @@ module.exports = {
       {
         test: /\.css$/,
         include: [paths.appSrc, paths.appNodeModules],
-        loader: 'style!css!postcss'
+        loader: 'style!css?importLoaders=1!postcss'
       },
       {
         test: /\.json$/,
@@ -87,7 +89,13 @@ module.exports = {
     useEslintrc: false
   },
   postcss: function() {
-    return [autoprefixer];
+    return [
+        postcssImport({
+            path: __dirname
+        }),
+        cssvariables(),
+        autoprefixer
+    ];
   },
   plugins: [
     new HtmlWebpackPlugin({
