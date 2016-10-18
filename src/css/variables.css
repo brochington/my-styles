@@ -1,4 +1,12 @@
 :root {
+    /* breakpoints */
+    --sm-max-width: 39.9375em;
+    --m-min-width: 40em;
+    --m-max-width: 63.9375em;
+    --l-min-width: 64em;
+    --l-max-width: 74.9375em;
+
+    /* colors */
     --color-primary: #27566B;
     --color-primary-lighter: #467386;
     --color-primary-lightest: #6E92A1;
@@ -14,9 +22,18 @@
     --color-text-primary: black;
 
     /* borders */
-    --border-width-s: 1px;
-    --border-width-m: 2px;
-    --border-width-l: 4px;
+    --border-width-xs: .125rem;
+    --border-width-s: .25rem;
+    --border-width-m: .5rem;
+    --border-width-l: .75rem;
+    --border-width-xl: 1rem;
+
+    /* border radius */
+    --border-radius-xs: .125rem;
+    --border-radius-s: .25rem;
+    --border-radius-m: .5rem;
+    --border-radius-l: 1rem;
+    --border-radius-xl: 2rem;
 
     /* margin */
     --margin-xs: 0.5rem;
@@ -31,4 +48,15 @@
     --padding-m: 2rem;
     --padding-l: 3rem;
     --padding-xl: 4rem;
+
+    /* max widths */
+    --max-width-1: 1rem;
+    --max-width-2: 2rem;
+    --max-width-3: 4rem;
+    --max-width-4: 8rem;
+    --max-width-5: 16rem;
+    --max-width-6: 32rem;
+    --max-width-7: 48rem;
+    --max-width-8: 64rem;
+    --max-width-9: 96rem;
 }

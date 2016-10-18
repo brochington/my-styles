@@ -1,6 +1,7 @@
 var path = require('path');
 var autoprefixer = require('autoprefixer');
 var cssvariables = require('postcss-css-variables');
+var postcssMediaVars = require('postcss-media-variables')
 var postcssImport = require('postcss-import');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -93,8 +94,10 @@ module.exports = {
         postcssImport({
             path: __dirname
         }),
+        postcssMediaVars(),
         cssvariables(),
-        autoprefixer
+        autoprefixer,
+        postcssMediaVars()
     ];
   },
   plugins: [
