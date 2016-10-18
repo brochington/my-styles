@@ -59,4 +59,10 @@
     --max-width-7: 48rem;
     --max-width-8: 64rem;
     --max-width-9: 96rem;
+
+    /* buttons */
+    --btn-primary-color: #27566B;
+    --btn-secondary-color: #313A75;
+    --btn-primary-text-color: white;
+    --btn-secondary-text-color: black;
 }

@@ -12,6 +12,7 @@ import ImagesPage from './pages/ImagesPage'
 import WidthPage from './pages/WidthPage'
 import BorderPage from './pages/BorderPage'
 import FormsPage from './pages/FormsPage'
+import ButtonPage from './pages/ButtonPage'
 
 
 /* my css files */
@@ -33,6 +34,9 @@ import './css/height.css'
 import './css/maxWidth.css'
 
 import './css/border.css'
+import './css/inputs.css'
+import './css/forms.css'
+import './css/buttons.css'
 
 
 
@@ -46,6 +50,7 @@ ReactDOM.render(
             <Route path='/width' component={WidthPage} />
             <Route path='/border' component={BorderPage} />
             <Route path='/forms' component={FormsPage} />
+            <Route path='/buttons' component={ButtonPage} />
         </Route>
     </Router>,
   document.getElementById('root')

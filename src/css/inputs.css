@@ -1,0 +1,12 @@
+@import '../css/variables.css';
+
+input, textarea {
+    border: none;
+    background: none;
+}
+
+input:focus, textarea:focus {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: var(--border-radius-s);
+    outline: none;
+}

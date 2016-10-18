@@ -3,6 +3,7 @@ var autoprefixer = require('autoprefixer');
 var cssvariables = require('postcss-css-variables');
 var postcssMediaVars = require('postcss-media-variables')
 var postcssImport = require('postcss-import');
+var postcssColorFunc = require('postcss-color-function');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
@@ -96,6 +97,7 @@ module.exports = {
         }),
         postcssMediaVars(),
         cssvariables(),
+        postcssColorFunc(),
         autoprefixer,
         postcssMediaVars()
     ];
