@@ -1,17 +1,36 @@
 @import '../css/variables.css';
 
 .btn {
-    padding: .25rem 1rem;
-    color: var(--btn-primary-text-color);
-    border-radius: var(--border-radius-xs);
-    background-color: var(--btn-primary-color);
+    padding: .6rem 1.5rem;
+    border: var(--btn-default-border);
+    border-radius: var(--btn-default-radius);
+    background-color: var(--btn-default-bgd);
+    color: var(--btn-default-color);
+    white-space: nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     transition: opacity 0.23s ease-in-out;
+    font-size: var(--font-size-sm);
 }
 
-.btn:hover {
+.btn.primary, .btn-primary {
+    padding: .6rem 1.5rem;
+    border: var(--btn-primary-border);
+    border-radius: var(--btn-primary-radius);
+    background-color: var(--btn-primary-bgd);
+    color: var(--btn-primary-color);
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.23s ease-in-out;
+    font-size: var(--font-size-sm);
+}
 
+.btn:focus,
+.btn-primary:focus {
+    outline: 0;
 }

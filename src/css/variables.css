@@ -6,6 +6,12 @@
     --l-min-width: 64em;
     --l-max-width: 74.9375em;
 
+    /* font sizes */
+    --font-size-sm: calc(0.60rem + 0.4vw);
+    --font-size-reg: calc(0.75rem + 0.4vw);
+    --font-size-lg: calc(0.95rem + 0.4vw);
+
+
     /* colors */
     --color-primary: #27566B;
     --color-primary-lighter: #467386;
@@ -22,6 +28,7 @@
     --color-text-primary: black;
 
     /* borders */
+    --border-width-xxs: 1px;
     --border-width-xs: .125rem;
     --border-width-s: .25rem;
     --border-width-m: .5rem;
@@ -61,8 +68,14 @@
     --max-width-9: 96rem;
 
     /* buttons */
-    --btn-primary-color: #27566B;
-    --btn-secondary-color: #313A75;
-    --btn-primary-text-color: white;
-    --btn-secondary-text-color: black;
+    --btn-default-color: #27566B;
+    --btn-default-border: solid #27566B var(--border-width-xxs);
+    --btn-default-radius: var(--border-radius-xs);
+    --btn-default-bgd: white;
+
+
+    --btn-primary-color: white;
+    --btn-primary-border: none;
+    --btn-primary-radius: var(--border-radius-xs);
+    --btn-primary-bgd: #27566B;
 }
