@@ -2,7 +2,11 @@
 
 input, textarea {
     border: none;
-    background: none;
+    border: solid var(--border-width-xxs) var(--color-primary);
+    border-radius: var(--border-radius-s);
+    padding: 0.6rem;
+    margin: 0.5rem 0;
+    /*border: solid black 1px;*/
 }
 
 input:focus, textarea:focus {

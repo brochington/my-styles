@@ -1,0 +1,21 @@
+@import '../css/variables.css';
+
+.bgd-primary {
+    background-color: var(--color-primary);
+}
+
+.bgd-success {
+    background-color: green;
+}
+
+.bgd-info {
+    background-color: blue;
+}
+
+.bgd-warning {
+    background-color: orange;
+}
+
+.bgd-danger {
+    background-color: red;
+}

@@ -17,6 +17,7 @@ class App extends Component {
                 <Link to="/border">Border</Link>
                 <Link to="/forms">Forms</Link>
                 <Link to="/buttons">Buttons</Link>
+                <Link to="/hidden">Hidden</Link>
             </div>
         </div>
         <div className="mu-w66 so-w100">

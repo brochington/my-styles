@@ -73,9 +73,33 @@
     --btn-default-radius: var(--border-radius-xs);
     --btn-default-bgd: white;
 
-
     --btn-primary-color: white;
     --btn-primary-border: none;
     --btn-primary-radius: var(--border-radius-xs);
     --btn-primary-bgd: #27566B;
+
+    --btn-success-color: white;
+    --btn-success-border: none;
+    --btn-success-radius: var(--border-radius-xs);
+    --btn-success-bgd: green;
+
+    --btn-info-color: white;
+    --btn-info-border: none;
+    --btn-info-radius: var(--border-radius-xs);
+    --btn-info-bgd: blue;
+
+    --btn-warning-color: white;
+    --btn-warning-border: none;
+    --btn-warning-radius: var(--border-radius-xs);
+    --btn-warning-bgd: orange;
+
+    --btn-danger-color: white;
+    --btn-danger-border: none;
+    --btn-danger-radius: var(--border-radius-xs);
+    --btn-danger-bgd: red;
+
+    --btn-disabled-color: white;
+    --btn-disabled-border: none;
+    --btn-disabled-radius: var(--border-radius-xs);
+    --btn-disabled-bgd: gray;
 }

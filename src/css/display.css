@@ -1,0 +1,54 @@
+@import '../css/variables.css';
+
+/* Small only */
+@media screen and (max-width: var(--sm-max-width)) {
+    .so-hide {
+        display: none !important;
+    }
+
+    .mo-show,
+    .mu-show,
+    .lu-show,
+    .lo-show {
+        display: none !important;
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: var(--m-min-width)) {
+    .mu-hide {
+        display: none !important;
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: var(--m-min-width)) and (max-width: var(--m-max-width)) {
+    .mo-hide {
+        display: none !important;
+    }
+
+    .so-show,
+    .lo-show,
+    .lu-show {
+        display: none !important;
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: var(--l-min-width)) {
+    .lu-hide {
+        display: none !important;
+    }
+
+    .so-show,
+    .mo-show {
+        display: none !important;
+    }
+}
+
+/* Large only */
+@media screen and (min-width: var(--l-min-width)) and (min-width: var(--l-max-width)) {
+    .lo-hide {
+        display: none !important;
+    }
+}

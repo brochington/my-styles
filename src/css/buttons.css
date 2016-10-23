@@ -1,10 +1,11 @@
 @import '../css/variables.css';
 
 .btn {
-    padding: .6rem 1.5rem;
+    padding: .5rem 1.4rem;
     border: var(--btn-default-border);
     border-radius: var(--btn-default-radius);
     background-color: var(--btn-default-bgd);
+    display: inline-block;
     color: var(--btn-default-color);
     white-space: nowrap;
     display: flex;
@@ -13,21 +14,108 @@
     cursor: pointer;
     transition: opacity 0.23s ease-in-out;
     font-size: var(--font-size-sm);
+    margin: 0.3rem;
 }
 
-.btn.primary, .btn-primary {
-    padding: .6rem 1.5rem;
+.btn.disabled {
+    cursor: not-allowed;
+    background-color: color(var(--btn-default-bgd) blackness(20%))
+}
+
+/* Small only */
+@media screen and (max-width: var(--sm-max-width)) {
+
+}
+
+/* Medium and up */
+@media screen and (min-width: var(--m-min-width)) {
+
+}
+
+/* Medium only */
+@media screen and (min-width: var(--m-min-width)) and (max-width: var(--m-max-width)) {
+
+}
+
+/* Large and up */
+@media screen and (min-width: var(--l-min-width)) {
+
+}
+
+/* Large only */
+@media screen and (min-width: var(--l-min-width)) and (min-width: var(--l-max-width)) {
+
+}
+
+
+.btn-primary {
     border: var(--btn-primary-border);
     border-radius: var(--btn-primary-radius);
     background-color: var(--btn-primary-bgd);
     color: var(--btn-primary-color);
-    white-space: nowrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: opacity 0.23s ease-in-out;
     font-size: var(--font-size-sm);
+}
+
+.btn-primary:hover {
+    background-color: color(var(--btn-primary-bgd) shade(20%))
+}
+
+
+.btn-success {
+    border: var(--btn-success-border);
+    border-radius: var(--btn-success-radius);
+    background-color: var(--btn-success-bgd);
+    color: var(--btn-success-color);
+    font-size: var(--font-size-sm);
+}
+
+.btn-success:hover {
+    background-color: color(var(--btn-success-bgd) shade(20%))
+}
+
+.btn-info {
+    border: var(--btn-info-border);
+    border-radius: var(--btn-info-radius);
+    background-color: var(--btn-info-bgd);
+    color: var(--btn-info-color);
+    font-size: var(--font-size-sm);
+}
+
+.btn-info:hover {
+    background-color: color(var(--btn-info-bgd) shade(20%))
+}
+
+.btn-warning {
+    border: var(--btn-warning-border);
+    border-radius: var(--btn-warning-radius);
+    background-color: var(--btn-warning-bgd);
+    color: var(--btn-warning-color);
+    font-size: var(--font-size-sm);
+}
+
+.btn-warning:hover {
+    background-color: color(var(--btn-warning-bgd) shade(20%))
+}
+
+.btn-danger {
+    border: var(--btn-danger-border);
+    border-radius: var(--btn-danger-radius);
+    background-color: var(--btn-danger-bgd);
+    color: var(--btn-danger-color);
+    font-size: var(--font-size-sm);
+}
+
+.btn-danger:hover {
+    background-color: color(var(--btn-danger-bgd) shade(20%))
+}
+
+.btn-disabled {
+    border: var(--btn-disabled-border);
+    border-radius: var(--btn-disabled-radius);
+    background-color: var(--btn-disabled-bgd);
+    color: var(--btn-disabled-color);
+    font-size: var(--font-size-sm);
+    cursor: not-allowed;
 }
 
 .btn:focus,

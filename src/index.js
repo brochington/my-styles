@@ -13,6 +13,7 @@ import WidthPage from './pages/WidthPage'
 import BorderPage from './pages/BorderPage'
 import FormsPage from './pages/FormsPage'
 import ButtonPage from './pages/ButtonPage'
+import HiddenPage from './pages/HiddenPage'
 
 
 /* my css files */
@@ -37,6 +38,8 @@ import './css/border.css'
 import './css/inputs.css'
 import './css/forms.css'
 import './css/buttons.css'
+import './css/visibility.css'
+import './css/display.css'
 
 
 
@@ -51,6 +54,7 @@ ReactDOM.render(
             <Route path='/border' component={BorderPage} />
             <Route path='/forms' component={FormsPage} />
             <Route path='/buttons' component={ButtonPage} />
+            <Route path='/hidden' component={HiddenPage} />
         </Route>
     </Router>,
   document.getElementById('root')

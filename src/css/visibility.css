@@ -1,0 +1,34 @@
+/* Small only */
+@media screen and (max-width: var(--sm-max-width)) {
+    .so-hidden {
+        visibility: hidden
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: var(--m-min-width)) {
+    .mu-hidden {
+        visibility: hidden
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: var(--m-min-width)) and (max-width: var(--m-max-width)) {
+    .mo-hidden {
+        visibility: hidden
+    }
+}
+
+/* Large and up */
+@media screen and (min-width: var(--l-min-width)) {
+    .lu-hidden {
+        visibility: hidden
+    }
+}
+
+/* Large only */
+@media screen and (min-width: var(--l-min-width)) and (min-width: var(--l-max-width)) {
+    .lo-hidden {
+        visibility: hidden
+    }
+}
