@@ -7,6 +7,7 @@ import App from './App'
 /* Pages */
 import HomePage from './pages/HomePage'
 import TypographyPage from './pages/TypographyPage'
+import ColorPage from './pages/ColorPage'
 import FlexboxPage from './pages/FlexboxPage'
 import ImagesPage from './pages/ImagesPage'
 import WidthPage from './pages/WidthPage'
@@ -40,6 +41,7 @@ import './css/forms.css'
 import './css/buttons.css'
 import './css/visibility.css'
 import './css/display.css'
+import './css/backgrounds.css'
 
 
 
@@ -48,6 +50,7 @@ ReactDOM.render(
         <Route component={App}>
             <Route path='/' component={HomePage} />
             <Route path='/typography' component={TypographyPage} />
+            <Route path='/colors' component={ColorPage} />
             <Route path='/flexbox' component={FlexboxPage} />
             <Route path='/images' component={ImagesPage} />
             <Route path='/width' component={WidthPage} />

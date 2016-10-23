@@ -11,6 +11,7 @@ class App extends Component {
             <div className="column so-row">
                 <Link to='/'>Home</Link>
                 <Link to="/typography">Typography</Link>
+                <Link to="/colors">Colors</Link>
                 <Link to="/images">Images</Link>
                 <Link to="/flexbox">Flexbox</Link>
                 <Link to="/width">Width</Link>
