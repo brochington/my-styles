@@ -44,6 +44,34 @@ a {
 .line-height-3 {line-height: calc(1.6rem + 0.4vw)}
 .line-height-4 {line-height: calc(1.8rem + 0.5vw)}
 
+code, .code {
+
+}
+
+samp, .samp {
+
+}
+
+kbd, .kbd {
+
+}
+var, .var {
+
+}
+
+blockquote, .blockquote {
+  margin: 1.5em 10px 1.5em 0px;
+  padding: 0.5em 10px 0.5em 20px;
+  border-left: 0.25rem solid var(--color-gray-lighter);
+  border-radius: 11px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+/*blockquote::before {
+  content: '';
+  padding-right: 10px;
+}*/
+
 /* Small only */
 @media screen and (max-width: var(--sm-max-width)) {}
 

@@ -16,6 +16,7 @@ import FormsPage from './pages/FormsPage'
 import ButtonPage from './pages/ButtonPage'
 import HiddenPage from './pages/HiddenPage'
 import ListPage from './pages/ListPage'
+import CodePage from './pages/CodePage'
 
 
 /* my css files */
@@ -60,6 +61,7 @@ ReactDOM.render(
             <Route path='/buttons' component={ButtonPage} />
             <Route path='/hidden' component={HiddenPage} />
             <Route path='/lists' component={ListPage} />
+            <Route path='/code' component={CodePage} />
         </Route>
     </Router>,
   document.getElementById('root')
