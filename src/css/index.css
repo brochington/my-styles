@@ -1,3 +1,6 @@
+@import '../css/variables.css';
+@import '../css/normalize.css';
+@import '../css/sanitize.css';
 @import '../css/basics.css';
 
 @import '../css/keyframes.css';
@@ -14,5 +17,9 @@
 @import '../css/maxWidth.css';
 
 @import '../css/border.css';
-@import '../css/forms.css';
 @import '../css/inputs.css';
+@import '../css/forms.css';
+@import '../css/buttons.css';
+@import '../css/visibility.css';
+@import '../css/display.css';
+@import '../css/backgrounds.css';

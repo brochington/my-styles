@@ -1,5 +1,3 @@
-@import '../css/variables.css';
-
 .border {
     border: solid var(--color-primary) var(--border-width-xs);
 }

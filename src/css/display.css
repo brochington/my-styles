@@ -1,5 +1,3 @@
-@import '../css/variables.css';
-
 /* Small only */
 @media screen and (max-width: var(--sm-max-width)) {
     .so-hide {

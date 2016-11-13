@@ -1,5 +1,3 @@
-@import '../css/variables.css';
-
 input, textarea {
     border: none;
     border: solid var(--border-width-xs) var(--color-primary);

@@ -20,32 +20,7 @@ import CodePage from './pages/CodePage'
 
 
 /* my css files */
-import './css/normalize.css'
-import './css/sanitize.css'
-import './css/basics.css'
-
-import './css/keyframes.css'
-import './css/animations.css'
-
-import './css/heading.css'
-import './css/flex.css'
-import './css/margin.css'
-import './css/padding.css'
-import './css/typography.css'
-import './css/images.css'
-import './css/width.css'
-import './css/height.css'
-import './css/maxWidth.css'
-
-import './css/border.css'
-import './css/inputs.css'
-import './css/forms.css'
-import './css/buttons.css'
-import './css/visibility.css'
-import './css/display.css'
-import './css/backgrounds.css'
-
-
+import './css/index.css'
 
 ReactDOM.render(
     <Router history={browserHistory}>

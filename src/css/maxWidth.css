@@ -1,5 +1,3 @@
-@import '../css/variables.css';
-
 .mw1 { max-width: var(--max-width-1); }
 .mw2 { max-width: var(--max-width-2); }
 .mw3 { max-width: var(--max-width-3); }
