@@ -94,24 +94,29 @@ blockquote, .blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 
-.column-count-2 {
-  -moz-column-count: 2;
-  -webkit-column-count: 2;
-  column-count: 2;
-  -moz-column-gap: 50px;
-  -webkit-column-gap: 50px;
-  column-gap: 50px;
-  text-align:justify;
-}
+/* Column counts */
 
-.column-count-3 {
-  -moz-column-count: 3;
-  -webkit-column-count: 3;
-  column-count: 3;
-  -moz-column-gap: 50px;
-  -webkit-column-gap: 50px;
-  column-gap: 50px;
-  text-align:justify;
+/* Medium and up */
+@media screen and (min-width: var(--m-min-width)) {
+  .column-count-2 {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 50px;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    text-align:justify;
+  }
+
+  .column-count-3 {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 50px;
+    -webkit-column-gap: 50px;
+    column-gap: 50px;
+    text-align:justify;
+  }
 }
 
 .drop-cap:first-child::first-letter {
@@ -121,6 +126,7 @@ blockquote, .blockquote {
 }
 
 /*  text selection */
+body::selection,
 p::selection,
 div::selection {
     background: var(--selection-bgd);

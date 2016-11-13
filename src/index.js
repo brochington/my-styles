@@ -17,9 +17,13 @@ import ButtonPage from './pages/ButtonPage'
 import HiddenPage from './pages/HiddenPage'
 import ListPage from './pages/ListPage'
 import CodePage from './pages/CodePage'
+import TablePage from './pages/TablePage'
 
 
 /* my css files */
+
+/* Loading fonts first to help with flicker. */
+import './css/fonts.css'
 import './css/index.css'
 
 ReactDOM.render(
@@ -36,6 +40,7 @@ ReactDOM.render(
             <Route path='/buttons' component={ButtonPage} />
             <Route path='/hidden' component={HiddenPage} />
             <Route path='/lists' component={ListPage} />
+            <Route path='/table' component={TablePage} />
             <Route path='/code' component={CodePage} />
         </Route>
     </Router>,
