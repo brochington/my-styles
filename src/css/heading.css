@@ -6,11 +6,16 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 h1, .h1 {
     font-size: calc(3.1rem + 1vw);
-    margin: 0;
+    /* Note: this margin value might change based on the font */
+    margin: 0 0 0 -4px;
 }
 
 h1.larger, .h1.larger {

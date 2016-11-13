@@ -44,6 +44,36 @@ a {
 .line-height-3 {line-height: calc(1.6rem + 0.4vw)}
 .line-height-4 {line-height: calc(1.8rem + 0.5vw)}
 
+.codeblock-label {
+  /* More can go here. */
+}
+
+pre {
+  margin: 0;
+}
+
+pre.codeblock {
+  border-radius: var(--codeblock-radius);
+  border: var(--codeblock-border);
+  background-color: var(--codeblock-bgd-color);
+  padding: 0.2rem 0.7rem;
+  border-left: var(--codeblock-border-left);
+}
+
+pre.line-numbers {
+  position: relative;
+  padding-left: 0.8em;
+  /*counter-reset: linenumber;*/
+}
+
+pre.line-numbers > code {
+	position: relative;
+}
+
+/*pre.line-numbers::before {
+  content: counter(linenumber);
+}*/
+
 code, .code {
 
 }
@@ -67,10 +97,43 @@ blockquote, .blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 
-/*blockquote::before {
-  content: '';
-  padding-right: 10px;
-}*/
+.column-count-2 {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  -moz-column-gap: 50px;
+  -webkit-column-gap: 50px;
+  column-gap: 50px;
+  text-align:justify;
+}
+
+.column-count-3 {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  -moz-column-gap: 50px;
+  -webkit-column-gap: 50px;
+  column-gap: 50px;
+  text-align:justify;
+}
+
+.drop-cap:first-child::first-letter {
+  font-size: 200%;
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+/*  text selection */
+p::selection,
+div::selection {
+    background: var(--selection-bgd);
+    color: var(--selection-color);
+}
+
+div::-moz-selection {  /* Firefox */
+    background: green;
+    color: #FFFFFF;
+}
 
 /* Small only */
 @media screen and (max-width: var(--sm-max-width)) {}

@@ -16,6 +16,31 @@ class HomePage extends React.Component {
                 <p>
                     Fashion axe wayfarers 8-bit chia DIY pitchfork. Lyft pok pok af gastropub chia actually taxidermy, brunch tote bag ennui. Hashtag typewriter four loko, flannel trust fund man bun farm-to-table jianbing portland actually af +1 woke. IPhone banh mi austin shabby chic. Drinking vinegar salvia four loko succulents, keytar activated charcoal fam iPhone portland. Flannel tumeric food truck, jianbing fixie hell of plaid. Yr venmo put a bird on it hell of.
                 </p>
+                <div className="column-count-2">
+                  <div>
+                    Fashion axe wayfarers 8-bit chia DIY pitchfork. Lyft pok pok af gastropub chia actually taxidermy, brunch tote bag ennui. Hashtag typewriter four loko, flannel trust fund man bun farm-to-table jianbing portland actually af +1 woke. IPhone banh mi austin shabby chic.
+                  </div>
+                  <div>
+                    Drinking vinegar salvia four loko succulents, keytar activated charcoal fam iPhone portland. Flannel tumeric food truck, jianbing fixie hell of plaid. Yr venmo put a bird on it hell of.
+                  </div>
+                </div>
+                <div className="column-count-3 mt2">
+                  <div>
+                    Fashion axe wayfarers 8-bit chia DIY pitchfork. Lyft pok pok af gastropub chia actually taxidermy, brunch tote bag ennui. Hashtag typewriter four loko, flannel trust fund man bun farm-to-table jianbing portland actually af +1 woke. IPhone banh mi austin shabby chic.
+                  </div>
+                  <div>
+                    Drinking vinegar salvia four loko succulents, keytar activated charcoal fam iPhone portland. Flannel tumeric food truck, jianbing fixie hell of plaid. Yr venmo put a bird on it hell of.
+                  </div>
+                  <div>
+                    Fashion axe wayfarers 8-bit chia DIY pitchfork. Lyft pok pok af gastropub chia actually taxidermy, brunch tote bag ennui. Hashtag typewriter four loko, flannel trust fund man bun farm-to-table jianbing portland actually af +1 woke. IPhone banh mi austin shabby chic.
+                  </div>
+                </div>
+                <div className='mt2'>
+                    <p className="drop-cap">
+                      Polaroid offal lumbersexual, wolf seitan trust fund church-key knausgaard air plant mlkshk. Umami pickled gentrify food truck, ugh put a bird on it artisan cronut. Flannel put a bird on it +1 blue bottle, austin hammock kickstarter YOLO dreamcatcher knausgaard DIY cliche air plant kinfolk letterpress. Enamel pin YOLO trust fund, master cleanse vape post-ironic tumeric cornhole vexillologist man braid synth everyday carry. Drinking vinegar cray messenger bag, typewriter post-ironic kogi seitan. Paleo lyft jianbing, heirloom selvage next level four dollar toast tbh tousled gastropub yuccie sartorial. Knausgaard distillery wayfarers poutine subway tile blue bottle, cred narwhal.
+                    </p>
+                </div>
+
             </div>
         )
     }

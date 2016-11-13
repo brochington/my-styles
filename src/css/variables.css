@@ -1,4 +1,8 @@
 :root {
+    /* fonts */
+    --font-primary: 'Source Sans Pro', sans-serif;
+    --font-secondary: fantasy;
+
     /* breakpoints */
     --sm-max-width: 39.9375em;
     --m-min-width: 40em;
@@ -44,18 +48,21 @@
     /* Text colors */
     --color-text-primary: black;
 
+    /* Text Selection */
+    --selection-bgd: var(--color-primary);
+    --selection-color: var(--color-light);
+
     /* links */
     --color-link: #27566B;
     --color-link-hover: color(var(--color-link) lightness(50%));
 
 
     /* borders */
-    --border-width-xxs: 1px;
-    --border-width-xs: .125rem;
-    --border-width-s: .25rem;
-    --border-width-m: .5rem;
-    --border-width-l: .75rem;
-    --border-width-xl: 1rem;
+    --border-width-xs: 1px;
+    --border-width-s: .125rem;
+    --border-width-m: .25rem;
+    --border-width-l: .5rem;
+    --border-width-xl: .75rem;
 
     /* border radius */
     --border-radius-xs: .125rem;
@@ -65,6 +72,7 @@
     --border-radius-xl: 2rem;
 
     /* margin */
+    --margin-xxs: 1px;
     --margin-xs: 0.5rem;
     --margin-s: 1rem;
     --margin-m: 2rem;
@@ -91,7 +99,7 @@
 
     /* buttons */
     --btn-default-color: #27566B;
-    --btn-default-border: solid #27566B var(--border-width-xxs);
+    --btn-default-border: solid #27566B var(--border-width-xs);
     --btn-default-radius: var(--border-radius-s);
     --btn-default-bgd: var(--color-default);
 
@@ -124,4 +132,10 @@
     --btn-disabled-border: none;
     --btn-disabled-radius: var(--border-radius-s);
     --btn-disabled-bgd: var(--color-gray);
+
+    /* codeblock */
+    --codeblock-radius: var(--border-radius-s);
+    --codeblock-border: solid var(--color-gray) var(--margin-xxs);
+    --codeblock-bgd-color: var(--color-gray-lightest);
+    --codeblock-border-left: 5px solid var(--color-gray);
 }

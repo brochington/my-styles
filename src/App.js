@@ -5,7 +5,7 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <div className="App row so-column">
+      <div className="App row so-column mx3">
         <div className="column mu-w33 so-w100">
             <h1>My CSS</h1>
             <div className="column so-row">
