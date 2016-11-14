@@ -4,31 +4,13 @@
     /* Maybe this should be a monospaced font. */
     --font-secondary: fantasy;
 
-    /* headings */
-    --h1-font-style: normal;
-    --h1-font-weight: 600;
-
-    --h2-font-style: normal;
-    --h2-font-weight: 600;
-
-    --h3-font-style: italic;
-    --h3-font-weight: 600;
-
-    --h4-font-style: normal;
-    --h4-font-weight: 600;
-
-    --h5-font-style: normal;
-    --h5-font-weight: 400;
-
-    --h6-font-style: normal;
-    --h6-font-weight: 600;
-
     /* breakpoints */
     --sm-max-width: 39.9375em;
     --m-min-width: 40em;
     --m-max-width: 63.9375em;
     --l-min-width: 64em;
     --l-max-width: 74.9375em;
+
 
     /* font sizes */
     --font-size-sm: calc(0.60rem + 0.4vw);
@@ -65,16 +47,45 @@
     --color-danger: red;
     --color-disabled: var(--color-gray);
 
+
     /* Text colors */
     --color-text-primary: black;
+
 
     /* Text Selection */
     --selection-bgd: var(--color-primary);
     --selection-color: var(--color-light);
 
+
     /* links */
     --color-link: #27566B;
     --color-link-hover: color(var(--color-link) lightness(50%));
+
+
+    /* headings */
+    --h1-font-style: normal;
+    --h1-font-weight: 600;
+    --h1-color: black;
+
+    --h2-font-style: normal;
+    --h2-font-weight: 600;
+    --h2-color: black;
+
+    --h3-font-style: italic;
+    --h3-font-weight: 600;
+    --h3-color: black;
+
+    --h4-font-style: normal;
+    --h4-font-weight: 600;
+    --h4-color: black;
+
+    --h5-font-style: normal;
+    --h5-font-weight: 400;
+    --h5-color: black;
+
+    --h6-font-style: normal;
+    --h6-font-weight: 600;
+    --h6-color: black;
 
 
     /* borders */
@@ -84,12 +95,14 @@
     --border-width-l: .5rem;
     --border-width-xl: .75rem;
 
+
     /* border radius */
     --border-radius-xs: .125rem;
     --border-radius-s: .25rem;
     --border-radius-m: .5rem;
     --border-radius-l: 1rem;
     --border-radius-xl: 2rem;
+
 
     /* margin */
     --margin-xxs: 1px;
@@ -99,12 +112,14 @@
     --margin-l: 3rem;
     --margin-xl: 4rem;
 
+
     /* padding */
     --padding-xs: 0.5rem;
     --padding-s: 1rem;
     --padding-m: 2rem;
     --padding-l: 3rem;
     --padding-xl: 4rem;
+
 
     /* max widths */
     --max-width-1: 1rem;
@@ -116,6 +131,7 @@
     --max-width-7: 48rem;
     --max-width-8: 64rem;
     --max-width-9: 96rem;
+
 
     /* buttons */
     --btn-default-color: #27566B;
@@ -152,6 +168,7 @@
     --btn-disabled-border: none;
     --btn-disabled-radius: var(--border-radius-s);
     --btn-disabled-bgd: var(--color-gray);
+
 
     /* codeblock */
     --codeblock-radius: var(--border-radius-s);
