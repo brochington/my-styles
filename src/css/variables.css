@@ -38,7 +38,7 @@
     --color-gray-lightest: #EEE;
 
     --color-light: white;
-    --color-dark: black;
+    --color-dark: #10161A;
 
     --color-default: white;
     --color-success: green;
@@ -49,7 +49,7 @@
 
 
     /* Text colors */
-    --color-text-primary: black;
+    --color-text-primary: #10161A;
 
 
     /* Text Selection */

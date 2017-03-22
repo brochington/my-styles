@@ -1,3 +1,29 @@
+form {
+
+}
+
+fieldset {
+    border: solid var(--color-primary) var(--border-width-xs);
+    border-radius: var(--border-radius-s);
+}
+
+legend {
+
+}
+
 label {
+    display: flex;
+    align-items: center;
+}
+
+input {
+
+}
+
+select {
+
+}
+
+textarea {
 
 }
